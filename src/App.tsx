@@ -4,9 +4,7 @@ import { motion } from 'framer-motion';
 import Header from './components/Header';
 import RecipeGenerator from './components/RecipeGenerator';
 import Footer from './components/Footer';
-
 const queryClient = new QueryClient();
-
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
